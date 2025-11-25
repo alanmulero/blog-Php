@@ -19,9 +19,10 @@ include_once 'templates/header.php';
 <body>
 
 <header>
-    <a href="<?= $BASE_URL ?>"  id="logo">
-    <img src="<?= $BASE_URL ?>/blog/img/logo.svg" alt="Blog Codar"></a>
+   
     <nav>
+     <a href="<?= $BASE_URL ?>"  id="logo">
+    <img src="<?= $BASE_URL ?>/blog/img/logo.svg" alt="Blog Codar"></a>
         <ul id="navbar">
             <li><a href="<?= $BASE_URL ?>/blog/index.php">Home</a></li>
             <li><a href="<?= $BASE_URL ?>">Sobre</a></li>
