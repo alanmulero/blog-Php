@@ -19,19 +19,20 @@ include_once 'templates/header.php';
 <body>
 
 <header>
-   
-    <nav>
-     <a href="<?= $BASE_URL ?>"  id="logo">
-    <img src="<?= $BASE_URL ?>/blog/img/logo.svg" alt="Blog Codar"></a>
-        <ul id="navbar">
-            <li><a href="<?= $BASE_URL ?>/blog/index.php">Home</a></li>
-            <li><a href="<?= $BASE_URL ?>">Sobre</a></li>
-            <li><a href="<?= $BASE_URL ?>/blog/contatos.php">Contato</a></li>
+  
 
+    <nav>
+          <a href="<?= $BASE_URI ?>/blog/index.php" id="logo">
+        <img src="<?= $BASE_URI ?>/blog/img/logo.svg" alt="Blog Codar">
+    </a>
+        <ul id="navbar">
+            <li><a href="<?= $BASE_URI ?>/blog/index.php">Home</a></li>
+            <li><a href="<?= $BASE_URI ?>/blog/contatos.php">Contatos</a></li>
+            <!-- outros itens -->
         </ul>
     </nav>
-
 </header>
+
     
 </body>
 </html>
